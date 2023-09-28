@@ -1,5 +1,6 @@
 public class Solution {
     public String decodeAtIndex(String s, int k) {
+        
         long size = 0;
         int n = s.length();
         StringBuilder result = new StringBuilder();
