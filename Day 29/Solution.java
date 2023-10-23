@@ -2,6 +2,7 @@ class Solution {
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
         int[] parentCount = new int[n];
 
+        
         for (int i = 0; i < n; i++) {
             if (leftChild[i] != -1) {
                 parentCount[leftChild[i]]++;
